@@ -10,10 +10,12 @@ Este es un proyecto simple en Python que implementa un servidor y cliente utiliz
 Python: Version 3.11 or higher
 XML-RPC: Built-in Python library for remote procedure calls.
 Docker: To containerize and run the project.
+
 **Requirements / Requisitos**
 
 Python installed (version 3.11 or higher).
 Docker installed and running.
+
 **How to Clone the Project / Cómo Clonar el Proyecto**
 
 Run the following command to clone the repository:
@@ -27,6 +29,7 @@ Replace <repository-url> with the actual GitHub or GitLab repository URL.
 Reemplaza <repository-url> con la URL real del repositorio.
 
 **How to Run / Cómo Ejecutar**
+
 **Run the Server / Ejecutar el Servidor**
 To start the XML-RPC server, run:
 Para iniciar el servidor XML-RPC, ejecuta:
@@ -41,6 +44,7 @@ Deberías ver:
 Servidor RPC iniciado y escuchando en puerto 8000...
 ```
 **Run the Client / Ejecutar el Cliente**
+
 To run the client and connect to the server, run:
 Para ejecutar el cliente y conectarse al servidor, ejecuta:
 
@@ -54,6 +58,7 @@ Salida esperada:
 Respuesta del servidor: Hola, Mundo
 ```
 **How to Dockerize / Cómo Dockerizar**
+
 Build the Docker image:
 Construye la imagen de Docker:
 
@@ -73,6 +78,7 @@ Ejecuta el cliente en un contenedor:
 docker run --rm --name rpc-client rpc-hello-world python client.py
 ```
 **Docker Hub Link / Enlace de Docker Hub**
+
 Replace <docker-hub-link> with your actual Docker Hub repository link.
 Reemplaza <docker-hub-link> con el enlace real de tu repositorio en Docker Hub.
 
