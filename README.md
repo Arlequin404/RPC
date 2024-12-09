@@ -1,17 +1,21 @@
 ## RPC Hello World
 **Description / Descripción**
+
 This is a simple Python project that implements an XML-RPC server and client communication. The server listens for requests on a specific port, and the client sends a message ("Hello, World") to the server, which responds accordingly.
 
 Este es un proyecto simple en Python que implementa un servidor y cliente utilizando XML-RPC. El servidor escucha solicitudes en un puerto específico, y el cliente envía un mensaje ("Hola, Mundo") al servidor, el cual responde en consecuencia.
 
 **Technologies / Tecnologías**
+
 Python: Version 3.11 or higher
 XML-RPC: Built-in Python library for remote procedure calls.
 Docker: To containerize and run the project.
 **Requirements / Requisitos**
+
 Python installed (version 3.11 or higher).
 Docker installed and running.
 **How to Clone the Project / Cómo Clonar el Proyecto**
+
 Run the following command to clone the repository:
 Ejecuta el siguiente comando para clonar el repositorio:
 
